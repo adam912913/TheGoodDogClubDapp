@@ -4,9 +4,9 @@ import { Row, Col } from 'react-bootstrap'
 import MainLayout from '../../layouts/MainLayouts';
 import Header from '../../components/Header';
 import Banner from "../../components/Banner";
-import LiveAuctions from "../../components/LiveAuctions";
-import TopSellers from '../../components/TopSellers';
-import TodaysPick from "../../components/TodaysPick";
+// import LiveAuctions from "../../components/LiveAuctions";
+// import TopSellers from '../../components/TopSellers';
+// import TodaysPick from "../../components/TodaysPick";
 import TeamIntroduce from "../../components/TeamIntroduce";
 import Roadmap from "../../components/Roadmap";
 import Faqs from "../../components/Faqs";
@@ -43,9 +43,9 @@ const HomePage = (props) => {
             </Row>
           </section>
 
-          <LiveAuctions></LiveAuctions>
+          {/* <LiveAuctions></LiveAuctions>
           <TopSellers></TopSellers>
-          <TodaysPick></TodaysPick>
+          <TodaysPick></TodaysPick> */}
         </div>
 
         <TeamIntroduce></TeamIntroduce>
