@@ -507,6 +507,72 @@ section.team_introduce p.shot_description {
   background-color: #7e450f;
 }
 
+section.partnerships {
+  background-color: #f1d6b9;
+  padding: 7em 0em;
+}
+.partnerships .wrapper {
+  background-color: #bca295;
+  padding: 3em;
+  border-radius: 20px;
+}
+.partnerships h2.title {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-60) / 69px Titan
+    One;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 60px/69px Titan One;
+  letter-spacing: 0px;
+  color: #f9f2ea;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 0.2em;
+}
+.partnerships p.partnership_content {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 20px / var(--unnamed-line-spacing-30) PT
+    Sans;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 20px/30px PT Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.chewy_label {
+  height: 30px;
+  margin-left: 2em;
+}
+.partnership_logo_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.partnerships .nft_images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.partnerships .nft_images img {
+  width: 100%;
+  background: #d1b9ad;
+  border-radius: 20px;
+  padding: 7px;
+}
+.partnerships .nft_images .block_1 {
+  width: 30%;
+}
+.partnerships .nft_images .block_2 {
+  width: 68%;
+}
+.nft_images_row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 section.roadmap {
   background-color: #fce4c7;
   position: relative;
@@ -1091,6 +1157,12 @@ a.btn_go_home {
 }
 
 @media screen and (max-width: 768px) {
+  .partnerships .nft_images {
+    display: none;
+  }
+  .partnerships .content_wrapper {
+    width: 100%;
+  }
   .banner .banner_title {
     font: normal normal normal 2em/2em Titan One;
   }
@@ -1193,6 +1265,16 @@ a.btn_go_home {
 }
 
 @media screen and (max-width: 425px) {
+  .partnerships h2.title {
+    font-size: 3em;
+  }
+  .partnerships p.partnership_content {
+    font-size: 1.5em;
+  }
+  .partnership_logo_wrapper {
+    display: block;
+    text-align: center;
+  }
   .banner .content > div .roadmap_btn {
     padding: 0.5em 0.5em;
   }

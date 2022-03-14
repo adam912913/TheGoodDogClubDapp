@@ -11,6 +11,7 @@ import TeamIntroduce from "../../components/TeamIntroduce";
 import Roadmap from "../../components/Roadmap";
 import Faqs from "../../components/Faqs";
 import Footer from "../../components/Footer";
+import Partnerships from "../../components/Partnerships";
 import Web3Context from '../../store/web3-context';
 
 import 'react-multi-carousel/lib/styles.css';
@@ -43,15 +44,16 @@ const HomePage = (props) => {
             </Row>
           </section>
 
-          <LiveAuctions></LiveAuctions>
-          <TopSellers></TopSellers>
-          <TodaysPick></TodaysPick>
+          <LiveAuctions />
+          <TopSellers />
+          <TodaysPick />
         </div>
 
-        <TeamIntroduce></TeamIntroduce>
-        <Roadmap></Roadmap>
-        <Faqs></Faqs>
-        <Footer></Footer>
+        <TeamIntroduce />
+        <Partnerships />
+        <Roadmap />
+        <Faqs />
+        <Footer />
       </div>
     </MainLayout>
   )
