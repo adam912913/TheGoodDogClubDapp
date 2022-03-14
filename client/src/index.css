@@ -1,3 +1,54 @@
+:root {
+  /* Colors: */
+  --unnamed-color-474747: #474747;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-0b1424: #0b1424;
+
+  /* Font/text values */
+  --unnamed-font-family-segoe-ui: Segoe UI;
+  --unnamed-font-family-lato: Lato;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-900: 900px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-size-22: 22px;
+  --unnamed-font-size-60: 60px;
+  --unnamed-font-size-70: 70px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-72: 72px;
+  --unnamed-line-spacing-94: 94px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-segoe-ui);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-22);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-474747);
+}
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-lato);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-900);
+  font-size: var(--unnamed-font-size-60);
+  line-height: var(--unnamed-line-spacing-72);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-0b1424);
+}
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-segoe-ui);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-70);
+  line-height: var(--unnamed-line-spacing-94);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -78,24 +129,42 @@ header.header {
 
 section.banner {
   margin-top: -104px;
-  padding: 144px 0 120px 0;
-  background: url(./assets/img/banner.jpg) no-repeat;
-  background-size: cover;
+  /* padding: 144px 0 120px 0; */
+  /* background: url(./assets/img/banner.jpg) no-repeat; */
+  /* background-size: cover;
+  min-height: 100vh; */
+  background-color: #bca295;
+}
+.final_jump_back {
+  width: 100%;
+  padding: 144px 0 0px 0;
+  background: url(./assets/img/final_jump1.png) no-repeat;
+  background-size: contain;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-position-x: center;
   background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+.final_jump_back .content {
+  background: url(./assets/img/final_jump2.png) no-repeat;
+  background-size: contain;
+  min-height: 80vh;
+  background-position-x: center;
+  background-position-y: bottom;
+  display: flex;
+  align-items: end;
+  padding-bottom: 7em;
 }
 .banner .content > div {
   position: relative;
 }
 
 .banner .content > div .roadmap_btn {
-  position: absolute;
-  bottom: 70px;
+  /* position: absolute; */
+  /* bottom: 70px; */
   background: transparent linear-gradient(120deg, #432f1c 0%, #7e450f 100%) 0%
     0% no-repeat padding-box;
   border-radius: 70px;
@@ -109,12 +178,14 @@ section.banner {
   letter-spacing: 0px;
   color: #fce4c7;
   opacity: 1;
-  left: calc(50% - 110px);
+  /* left: calc(50% - 110px); */
   width: 220px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.banner .content > div .roadmap_btn img {
+  margin-left: 0.5em;
 }
 .banner .banner_title {
   font: var(--unnamed-font-style-normal) normal

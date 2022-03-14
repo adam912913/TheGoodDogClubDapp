@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import { Row, Col } from 'react-bootstrap'
 import AuctionItem from "./AuctionItem";
+import { LIVE_ACTION_LIST } from "../config/constants";
 
 const picks_responsive = {
   superLargeDesktop: {
@@ -33,6 +34,7 @@ const CustomRightArrow = ({ onClick, ...rest }) => {
 };
 
 const LiveAuctions = ({ children }) => {
+
   return (
     <section className='actions'>
       <Row>
@@ -62,10 +64,10 @@ const LiveAuctions = ({ children }) => {
               customLeftArrow={<CustomLeftArrow />}
               customRightArrow={<CustomRightArrow />}
             >
-              {[1, 2, 3, 4].map((item, index) => {
+              {LIVE_ACTION_LIST.map((item, index) => {
                 return (
                   <div className="slider_item" key={index}>
-                    <AuctionItem></AuctionItem>
+                    <AuctionItem data={item}></AuctionItem>
                   </div>
                 )
               })}

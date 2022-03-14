@@ -89,3 +89,153 @@ export const TEAM_MEMBER_LIST = [
     role: "Aktōn LLC"
   }
 ];
+
+export const LIVE_ACTION_LIST = [
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_live_actions/1.png`,
+    avatar_url: `/assets/images/avatars/1.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_live_actions/2.png`,
+    avatar_url: `/assets/images/avatars/2.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_live_actions/3.png`,
+    avatar_url: `/assets/images/avatars/3.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_live_actions/4.png`,
+    avatar_url: `/assets/images/avatars/4.png`
+  }
+];
+
+export const TOP_SELLERS = [
+  {
+    nft_url: `/assets/images/nft_top_sellers/1.png`,
+    seller_name: 'Adam Gilchrist',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/2.png`,
+    seller_name: 'Nicci Troiani',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/3.png`,
+    seller_name: 'Rachel Mcadams',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/4.png`,
+    seller_name: 'Rebecca Moore',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/5.png`,
+    seller_name: 'Jones Dermot',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/6.png`,
+    seller_name: 'John Smith',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/7.png`,
+    seller_name: 'Martin Merces',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/8.png`,
+    seller_name: 'Franz Ferdinand',
+    other_infor: '243 bas'
+  },
+  {
+    nft_url: `/assets/images/nft_top_sellers/9.png`,
+    seller_name: 'John Smith',
+    other_infor: '243 bas'
+  }
+];
+
+export const TODAY_PICKS_LIST = [
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/1.png`,
+    avatar_url: `/assets/images/avatars/1.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/2.png`,
+    avatar_url: `/assets/images/avatars/2.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/3.png`,
+    avatar_url: `/assets/images/avatars/2.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/4.png`,
+    avatar_url: `/assets/images/avatars/4.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/1.png`,
+    avatar_url: `/assets/images/avatars/3.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/2.png`,
+    avatar_url: `/assets/images/avatars/1.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/3.png`,
+    avatar_url: `/assets/images/avatars/4.png`
+  },
+  {
+    title: "It was popularised in the 1960s",
+    creator: "Adam Gilchrist",
+    current_bid: "555 abc",
+    fav_count: 100,
+    nft_url: `/assets/images/nft_todays_pick/4.png`,
+    avatar_url: `/assets/images/avatars/3.png`
+  }
+];

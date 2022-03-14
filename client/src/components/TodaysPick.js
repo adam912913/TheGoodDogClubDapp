@@ -7,6 +7,8 @@ import sale_type from '../assets/img/sale_type.png'
 import price_range from '../assets/img/price_range.png'
 import blockchain_icon from '../assets/img/blockchain_icon.png'
 
+import { TODAY_PICKS_LIST } from "../config/constants";
+
 const picks_responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -38,6 +40,7 @@ const CustomRightArrow = ({ onClick, ...rest }) => {
 };
 
 const TodaysPick = ({ children }) => {
+
   return (
     <section className='top_sellers'>
       <Row>
@@ -77,12 +80,14 @@ const TodaysPick = ({ children }) => {
               customLeftArrow={<CustomLeftArrow />}
               customRightArrow={<CustomRightArrow />}
             >
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => {
+              {TODAY_PICKS_LIST.map((item, index) => {
                 return (
-                  <div className="slider_item" key={index}>
-                    <AuctionItem data={{index: index}} />
-                    <AuctionItem className="mt-20" />
-                  </div>
+                  <>
+                    <div className="slider_item" key={index}>
+                      <AuctionItem data={item} />
+                      <AuctionItem className="mt-20" />
+                    </div>
+                  </>
                 )
               })}
             </Carousel>

@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import { Row, Col } from 'react-bootstrap'
 import SellerItem from './SellerItem';
+import { TOP_SELLERS } from "../config/constants";
 
 const responsive = {
   superLargeDesktop: {
@@ -64,10 +65,10 @@ const TopSellers = ({ children }) => {
               customLeftArrow={<CustomLeftArrow />}
               customRightArrow={<CustomRightArrow />}
             >
-              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
+              {TOP_SELLERS.map((item, index) => {
                 return (
                   <div className="slider_item" key={index}>
-                    <SellerItem key={index}></SellerItem>
+                    <SellerItem data={item} key={index}></SellerItem>
                   </div>
                 )
               })}

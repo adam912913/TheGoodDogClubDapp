@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
 import nft_img from '../assets/img/nft_img.png'
 
-const SellerItem = (props) => {
+const SellerItem = ({ data }) => {
   return (
-    <Link to={`/`}>
-      <div className='seller_item'>
-        <img alt='' src={nft_img} />
-        <p className='sell_infor'>Adam Gilchrist <br />243 bas </p>
-      </div>
-    </Link>
+    <>
+      {data ? (
+        <Link to={`/`}>
+          <div className='seller_item'>
+            <img alt='' src={data.nft_url} />
+            <p className='sell_infor'>{data.seller_name} <br />{data.other_infor} </p>
+          </div>
+        </Link>
+      ) : ''}
+    </>
   );
 }
 
