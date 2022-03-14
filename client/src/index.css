@@ -139,7 +139,7 @@ section.banner {
   width: 100%;
   padding: 144px 0 0px 0;
   background: url(./assets/img/final_jump1.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 100vh;
   background-position-x: center;
   background-position-y: bottom;

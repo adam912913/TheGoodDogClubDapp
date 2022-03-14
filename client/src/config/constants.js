@@ -211,7 +211,7 @@ export const TODAY_PICKS_LIST = [
     creator: "Adam Gilchrist",
     current_bid: "555 abc",
     fav_count: 100,
-    nft_url: `/assets/images/nft_todays_pick/1.png`,
+    nft_url: `/assets/images/nft_todays_pick/5.png`,
     avatar_url: `/assets/images/avatars/3.png`
   },
   {
@@ -219,7 +219,7 @@ export const TODAY_PICKS_LIST = [
     creator: "Adam Gilchrist",
     current_bid: "555 abc",
     fav_count: 100,
-    nft_url: `/assets/images/nft_todays_pick/2.png`,
+    nft_url: `/assets/images/nft_todays_pick/6.png`,
     avatar_url: `/assets/images/avatars/1.png`
   },
   {
@@ -227,7 +227,7 @@ export const TODAY_PICKS_LIST = [
     creator: "Adam Gilchrist",
     current_bid: "555 abc",
     fav_count: 100,
-    nft_url: `/assets/images/nft_todays_pick/3.png`,
+    nft_url: `/assets/images/nft_todays_pick/7.png`,
     avatar_url: `/assets/images/avatars/4.png`
   },
   {
@@ -235,7 +235,7 @@ export const TODAY_PICKS_LIST = [
     creator: "Adam Gilchrist",
     current_bid: "555 abc",
     fav_count: 100,
-    nft_url: `/assets/images/nft_todays_pick/4.png`,
+    nft_url: `/assets/images/nft_todays_pick/8.png`,
     avatar_url: `/assets/images/avatars/3.png`
   }
 ];
