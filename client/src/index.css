@@ -138,7 +138,8 @@ section.banner {
 .final_jump_back {
   width: 100%;
   padding: 144px 0 0px 0;
-  background: url(./assets/img/final_jump1.png) no-repeat;
+  /* background: url(./assets/img/final_jump1.png) no-repeat; */
+  background: url(./assets/img/banner.jpg) no-repeat;
   background-size: cover;
   min-height: 100vh;
   background-position-x: center;
@@ -201,6 +202,14 @@ section.banner {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   color: rgba(0, 0, 0, 0);
+}
+
+.bg_patterns_back {
+  background-repeat: no-repeat;
+  background-image: url(./assets/img/bg_patterns_1.png),
+    url(./assets/img/bg_patterns_2.png);
+  background-position: 100% 5%, 1% 71%;
+  background-size: 45%, 30%;
 }
 
 .about {
@@ -511,10 +520,17 @@ section.partnerships {
   background-color: #f1d6b9;
   padding: 7em 0em;
 }
-.partnerships .wrapper {
+section.partnerships .pow_back {
   background-color: #bca295;
   padding: 3em;
   border-radius: 20px;
+}
+
+.partnerships .wrapper {
+  background-repeat: no-repeat;
+  background-image: url(./assets/img/bg_patterns_2.png);
+  background-position: 22% 80%;
+  background-size: 15%;
 }
 .partnerships h2.title {
   font: var(--unnamed-font-style-normal) normal

@@ -5,7 +5,7 @@ import chewy_label from '../assets/img/chewy_label.png'
 const Partnerships = ({ children }) => {
   return (
     <section className="partnerships">
-      <div className="container">
+      <div className="container pow_back">
         <div className="wrapper">
           <Row>
             <Col md={6} sm={12} className="content_wrapper">

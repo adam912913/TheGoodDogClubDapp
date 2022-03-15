@@ -30,23 +30,25 @@ const HomePage = (props) => {
         <Header></Header>
         <Banner></Banner>
 
-        <div className='container'>
-          <section className='about'>
-            <Row>
-              <Col md={6} sm={12} className="image_col">
-                <img src={about_logo} alt="About Logo" />
-              </Col>
-              <Col md={6} sm={12} className="content_col">
-                <h2 className='txt_stroke'>What is</h2>
-                <h2 className="title">The Good Dog Club LLC</h2>
-                <p className="text">Founded by a mutual love and respect for Dogs, the Good Dog Club LLC is a bootstrap project with its main focus on community and utility. The Good Dog Club LLC is a pack of Dog NFTs released on the Ethereum blockchain for an epic adventure into the Metaverse.</p>
-              </Col>
-            </Row>
-          </section>
+        <div className='bg_patterns_back'>
+          <div className='container'>
+            <section className='about'>
+              <Row>
+                <Col md={6} sm={12} className="image_col">
+                  <img src={about_logo} alt="About Logo" />
+                </Col>
+                <Col md={6} sm={12} className="content_col">
+                  <h2 className='txt_stroke'>What is</h2>
+                  <h2 className="title">The Good Dog Club LLC</h2>
+                  <p className="text">Founded by a mutual love and respect for Dogs, the Good Dog Club LLC is a bootstrap project with its main focus on community and utility. The Good Dog Club LLC is a pack of Dog NFTs released on the Ethereum blockchain for an epic adventure into the Metaverse.</p>
+                </Col>
+              </Row>
+            </section>
 
-          <LiveAuctions />
-          <TopSellers />
-          <TodaysPick />
+            <LiveAuctions />
+            <TopSellers />
+            <TodaysPick />
+          </div>
         </div>
 
         <TeamIntroduce />
