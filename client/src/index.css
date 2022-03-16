@@ -784,6 +784,7 @@ button.btn_load_more {
 }
 .ant-collapse-content > .ant-collapse-content-box p {
   text-align: justify;
+  font-size: 1.2em;
 }
 
 .footer {

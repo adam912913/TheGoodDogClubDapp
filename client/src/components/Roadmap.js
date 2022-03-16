@@ -18,7 +18,7 @@ const Roadmap = ({ children }) => {
             </div>
             <div className='roadmap_item even_item'>
               <div>
-                <p>Release 25 more breeds as well as purchase land in the metaverse to begin building our dog park with possible partnership with Chewy.com.</p>
+                <p>Release 25 more breeds as well as purchase land in the metaverse to begin building our dog park with possible partnership.</p>
                 <h3>Drop 02</h3>
               </div>
             </div>
