@@ -10,7 +10,7 @@ const Partnerships = ({ children }) => {
           <Row>
             <Col md={6} sm={12} className="content_wrapper">
               <h2 className='title'>Partnerships</h2>
-              <p className='partnership_content'>Our goal is to bring your 3D version of your dog breed into the Metaverse. We have developed a basic Roadmap, have celebrity endorsements in the works, and partnered with Chewy.com.
+              <p className='partnership_content'>Our goal is to bring your 3D version of your dog breed into the Metaverse. We have developed a basic Roadmap, have celebrity endorsements in the works, and partnered.
                 <br />We eventually want to partner with decentralland (as well as every Metaverse Platform) so people can have their dogs follow them around as they are traversing the metaverse.</p>
               <div className='partnership_logo_wrapper'>
                 <img alt='' src={logo_title} height="52" className="chewy_tgdc_logo" />
