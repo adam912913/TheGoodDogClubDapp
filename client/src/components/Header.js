@@ -56,9 +56,12 @@ const Header = ({ children }) => {
             <Link to="/mint">Mint</Link>
           </li>
           <li>
-            <Link className='flex_center' target="_blank" to="/">Discord
+            <a className='flex_center' target="_blank" href="https://discord.gg/r8bhrgQ7ZN">Discord
               <img alt='' className='menu_discord_icon' src={discord_icon} />
-            </Link>
+            </a>
+            {/* <Link className='flex_center' target="_blank" to={{ pathname: "https://discord.gg/r8bhrgQ7ZN" }}>Discord
+              <img alt='' className='menu_discord_icon' src={discord_icon} />
+            </Link> */}
           </li>
         </ul>
       </div>

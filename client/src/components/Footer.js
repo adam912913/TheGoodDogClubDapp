@@ -32,19 +32,22 @@ const Footer = ({ children }) => {
         <div className='social_links'>
           <ul className='links'>
             <li>
-              <Link to="/">
+              {/* <Link to="/">
                 <img src={icon_insta} alt="Icon Instagram" />
-              </Link>
+              </Link> */}
+              <a href="https://www.instagram.com/thegooddogclubllc"><img src={icon_insta} alt="Icon Instagram" /></a>
             </li>
             <li>
-              <Link to="/">
+              {/* <Link to="/">
                 <img src={icon_twitter} alt="Icon Twitter" />
-              </Link>
+              </Link> */}
+              <a href="https://twitter.com/thegooddogclub1"><img src={icon_twitter} alt="Icon Twitter" /></a>
             </li>
             <li>
-              <Link to="/">
+              {/* <Link to="/">
                 <img alt='' src={icon_fb} />
-              </Link>
+              </Link> */}
+              <a href="https://www.facebook.com/thegooddogclubllc"><img src={icon_fb} alt="Icon Facebook" /></a>
             </li>
           </ul>
         </div>

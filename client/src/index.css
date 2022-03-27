@@ -146,7 +146,7 @@ section.banner {
   background-position-y: bottom;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   text-align: center;
 }
 .final_jump_back .content {
@@ -156,7 +156,7 @@ section.banner {
   background-position-x: center;
   background-position-y: bottom;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   padding-bottom: 7em;
 }
 .banner .content > div {
