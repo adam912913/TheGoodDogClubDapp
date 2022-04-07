@@ -64,7 +64,7 @@ export const TEAM_MEMBER_LIST = [
     role: "3D Artist"
   },
   {
-    avatar: assets_image_url + '4.png',
+    avatar: assets_image_url + '4.jpg',
     name: "Adam Lee",
     role: "Developer"
   },
