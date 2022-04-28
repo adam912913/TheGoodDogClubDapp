@@ -1067,7 +1067,7 @@ a.btn_go_home {
     padding: 1em;
   }
   .banner .content > div {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
   }
   .banner .content > div img.banner_logo {
@@ -1174,6 +1174,9 @@ a.btn_go_home {
 }
 
 @media screen and (max-width: 768px) {
+  .final_jump_back .content {
+    width: 95%;
+  }
   .partnerships .nft_images {
     display: none;
   }
