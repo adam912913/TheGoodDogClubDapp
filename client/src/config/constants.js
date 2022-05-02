@@ -68,21 +68,21 @@ export const TEAM_MEMBER_LIST = [
     name: "Adam Lee",
     role: "Developer"
   },
-  {
-    avatar: assets_image_url + '5.png',
-    name: "Josie Quinn",
-    role: "Social Media Expert"
-  },
-  {
-    avatar: assets_image_url + '6.png',
-    name: "Syed Hasan Abbas Jafri",
-    role: "Landing Page/Content"
-  },
-  {
-    avatar: assets_image_url + '7.png',
-    name: "Emmanuel Ighosewe",
-    role: "Whitepaper/FAQs"
-  },
+  // {
+  //   avatar: assets_image_url + '5.png',
+  //   name: "Josie Quinn",
+  //   role: "Social Media Expert"
+  // },
+  // {
+  //   avatar: assets_image_url + '6.png',
+  //   name: "Syed Hasan Abbas Jafri",
+  //   role: "Landing Page/Content"
+  // },
+  // {
+  //   avatar: assets_image_url + '7.png',
+  //   name: "Emmanuel Ighosewe",
+  //   role: "Whitepaper/FAQs"
+  // },
   {
     avatar: assets_image_url + '8.png',
     name: "David Sacha",
